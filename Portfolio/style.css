@@ -1,0 +1,652 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+/* Here is header*/
+
+
+header {
+    margin: 50px 100px 100px 100px;
+    /* background-color: #A586FF; */
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 15px;
+}
+
+/*  All logo materials are inside of this section */
+
+.logotext {
+    padding: 15px 0;
+}
+
+/* Navigation bars are there */
+
+#navbar {
+    padding: 15px 0;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: right;
+}
+
+.navbar a {
+    color: black;
+    font-size: 20px;
+}
+
+
+
+
+
+
+/* From here main body and content will be done */
+
+main {
+    padding: 0 100px;
+}
+
+#detail {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 400px;
+    width: 100%;
+    /* background-color: #A586FF; */
+}
+
+.detail {
+    width: 100%;
+    padding: 50px 15% 0 0;
+}
+
+.detail h1,
+.recenttext h1 {
+    font-size: 60px;
+    margin: 0 0 50px 0;
+}
+
+.button {
+    display: inline-block;
+    margin: 50px 0 0 0;
+    color: white;
+    background-color: black;
+    padding: 15px 25px;
+    border-radius: 25px;
+}
+
+.image {
+    width: 100%;
+    /* background-color: #A586FF; */
+}
+
+.selfpic {
+    width: 500px;
+    float: right;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+#recent {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* background-color: #A586FF; */
+    margin: 100px 0;
+    height: 400px;
+}
+
+.img {
+    padding: 0 50px 0 0;
+}
+
+.blank {
+    padding: 7px 40px;
+    text-align: right;
+    background-color: rgb(231, 231, 231);
+    border-radius: 15px 15px 0 0;
+}
+
+.empty {
+    display: inline-block;
+    margin: 0 7px 0 0;
+    width: 7px;
+    height: 7px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.empty2 {
+    display: inline-block;
+    margin: 0 7px 0 0;
+    width: 7px;
+    height: 7px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.empty3 {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.picture {
+    width: 100%;
+    height: 368px;
+}
+
+.recenttext {
+    padding: 50px 100px 0 100px;
+}
+
+
+
+
+
+
+
+
+
+#projects {
+    margin: 0 0 100px 0;
+    /* background-color: #A586FF; */
+}
+
+#projects h2 {
+    font-size: 40px;
+    margin: 0 0 50px 0;
+}
+
+.projectlinks {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.first {
+    margin: 300px 0 0 0;
+}
+
+#projectimg1,
+#projectimg2,
+#projectimg3 {
+    width: 100%;
+}
+
+.second {
+    margin: 150px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+    background-color: black;
+    color: white;
+    padding: 10px 50px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 25% 20% 25% 30%;
+    background-color: black;
+    color: white;
+    padding: 100px 200px 25px 200px;
+}
+
+.myself {
+    letter-spacing: 3px;
+}
+
+.myself h1 {
+    font-size: 3.5rem;
+    color: #A586FF;
+    margin: -25px 0 25px 0;
+}
+
+.links h2,
+.contact h2,
+.social h2 {
+    font-size: 2rem;
+    color: white;
+    margin: 0 0 25px 0;
+}
+
+.links li,
+.social li,
+.contact li {
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.contact ul li a {
+    color: white;
+}
+
+.links {
+    padding: 0 0 0 10px;
+}
+
+.social {
+    text-align: center;
+}
+
+.social a {
+    text-align: right;
+}
+
+#copyright {
+    float: right;
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+
+    header {
+        margin: 50px 90px 90px 90px;
+    }
+
+    main {
+        padding: 0 90px;
+    }
+
+    #recent {
+        margin: 90px 0;
+        height: 383px;
+    }
+
+    #projects {
+        margin: 0 0 90px 0;
+    }
+
+    #projects h2 {
+        margin: 0 0 45px 0;
+    }
+
+    #detail {
+        height: 360px;
+    }
+
+    .detail h1,
+    .recenttext h1 {
+        font-size: 55px;
+        margin: 0 0 40px 0;
+    }
+
+    .selfpic {
+        width: 450px;
+    }
+
+    .detail {
+        padding: 40px 25px 0 0;
+    }
+
+    .img {
+        padding: 0 40px 0 0;
+    }
+
+    .picture {
+        height: 350px;
+    }
+
+    .recenttext {
+        padding: 45px 0 0 100px;
+    }
+
+}
+
+@media only screen and (max-width: 1188px) {
+
+    header {
+        margin: 50px 80px 80px 80px;
+    }
+
+    main {
+        padding: 0 80px;
+    }
+
+    #recent {
+        margin: 80px 0;
+        height: 363px;
+    }
+
+    #projects {
+        margin: 0 0 80px 0;
+    }
+
+    #projects h2 {
+        margin: 0 0 40px 0;
+    }
+
+    #detail {
+        height: 320px;
+    }
+
+    .detail {
+        padding: 30px 25px 0 0;
+    }
+
+    .detail h1,
+    .recenttext h1 {
+        margin: 0 0 35px 0;
+    }
+
+    .button {
+        margin: 35px 0 0 0;
+        padding: 13px 25px;
+    }
+
+    .selfpic {
+        width: 380px;
+        height: 100%;
+    }
+
+    .img {
+        padding: 0;
+    }
+
+    .picture {
+        height: 330px;
+    }
+
+    .recenttext {
+        padding: 35px 0 0 100px;
+    }
+
+    .footer {
+        grid-template-columns: 25% 20% 25% 30%;
+        padding: 90px 100px 25px 100px;
+    }
+
+    .links li,
+    .contact li {
+        margin: 23px 0;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    header {
+        margin: 50px 70px 70px 70px;
+    }
+
+    .header {
+        grid-template-columns: 45% 55%;
+    }
+
+    main {
+        padding: 0 70px 0 70px;
+    }
+
+    #recent {
+        margin: 70px 0;
+        height: 333px;
+    }
+
+    #projects {
+        margin: 0 0 70px 0;
+    }
+
+    #projects h2 {
+        margin: 0 0 35px 0;
+    }
+
+    .detail {
+        padding: 20px 25px 0 0;
+    }
+
+    .selfpic {
+        width: 340px;
+        height: 100%;
+    }
+
+    .picture {
+        height: 300px;
+    }
+
+    .recenttext {
+        padding: 25px 0 0 50px;
+    }
+
+    .footer {
+        grid-template-columns: 30% 20% 20% 30%;
+        padding: 90px 75px 25px 75px;
+    }
+
+    .links li,
+    .contact li {
+        margin: 20px 0;
+    }
+}
+
+@media only screen and (max-width: 863px) {
+
+    header {
+        margin: 50px 60px 60px 60px;
+    }
+
+    .header {
+        grid-template-columns: 40% 60%;
+    }
+
+    main {
+        padding: 0 60px 0 60px;
+    }
+
+    #recent {
+        margin: 60px 0;
+        height: 333px;
+    }
+
+    #projects {
+        margin: 0 0 60px 0;
+    }
+
+    #projects h2 {
+        margin: 0 0 30px 0;
+    }
+
+    .detail {
+        padding: 15px 25px 0 0;
+    }
+
+    .selfpic {
+        width: 300px;
+    }
+
+    .recenttext {
+        padding: 20px 0 0 50px;
+    }
+
+    .recenttext h1 {
+        margin: 0 0 25px 0;
+        font-size: 45px;
+    }
+
+    .footer {
+        grid-template-columns: 30% 20% 20% 30%;
+        padding: 90px 50px 25px 50px;
+    }
+
+    .myself h1 {
+        font-size: 3rem;
+    }
+
+    .links h2,
+    .contact h2,
+    .social h2 {
+        font-size: 1.5rem;
+    }
+
+    .links li,
+    .contact li {
+        margin: 18px 0;
+    }
+}
+
+@media only screen and (max-width: 754px) {
+
+    header {
+        margin: 50px;
+    }
+
+
+    .header {
+        grid-template-columns: 35% 65%;
+    }
+
+    main {
+        padding: 0 50px;
+    }
+
+    #recent {
+        margin: 50px 0;
+    }
+
+    .recenttext {
+        padding: 10px 0 0 0px;
+        overflow: hidden;
+    }
+
+    .recenttext h1 {
+        margin: 0 0 17px 0;
+        font-size: 40px;
+    }
+
+    #projects {
+        margin: 0 0 50px 0;
+    }
+
+    #projects h2 {
+        margin: 0 0 25px 0;
+    }
+
+    .detail {
+        padding: 10px 25px 0 0;
+    }
+
+    .selfpic {
+        width: 275px;
+    }
+
+    .recenttext {
+        padding: 10px 0 0 50px;
+    }
+
+    .footer {
+        padding: 90px 25px 20px 25px;
+    }
+
+    .links li,
+    .contact li {
+        margin: 15px 0;
+    }
+}
+
+@media only screen and (max-width: 668px) {
+
+    header {
+        margin: 50px 40px 40px 40px;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    main {
+        padding: 0 40px 0 40px;
+    }
+
+    .selfpic {
+        width: 100%;
+        /* height: ; */
+    }
+
+    #detail {
+        grid-template-columns: 60% 40%;
+    }
+
+    #recent {
+        margin: 100px 0;
+    }
+
+    #posts {
+        grid-template-columns: 49% 49%;
+        grid-gap: 2%;
+    }
+
+    #projects {
+        margin: 0 0 40px 0;
+    }
+
+    #projects h2 {
+        margin: 0 0 20px 0;
+    }
+
+    .explore {
+        grid-template-columns: 100%;
+    }
+
+    .footer {
+        grid-template-columns: 33% 33% 33%;
+        padding: 50px 25px 20px 25px;
+        margin: 0 0 50px 0;
+    }
+
+    .myself {
+        grid-row: 1 / 3;
+    }
+
+    #footer {
+        margin: 0;
+        padding: 15px 15px 10px 15px;
+    }
+
+    .links li,
+    .contact li {
+        margin: 0;
+    }
+
+    .social {
+        grid-column: 2 / 4;
+        margin: 15px 0 0 0;
+    }
+
+    #manage,
+    #copyright {
+        font-size: xx-small;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    body {
+        display: none;
+    }
+}
